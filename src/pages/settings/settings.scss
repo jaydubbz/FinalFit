@@ -1,0 +1,45 @@
+page-settings {
+
+}
+
+#settings-container {
+    width: 98%;
+    padding: 25px 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#settings-container div {
+    padding: 25px 0 10px 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+#settings-container h3 {
+    font-size:30px;
+    font-weight: light;
+}
+
+#settings-container h4 {
+    text-align: center;
+    color:#888;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#settings-container h4 span {
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+#settings-container h3 span {
+    font-style: italic;
+    color:#888;
+    font-size: 28px;
+    margin-right: 6px;
+    float: right;
+}
+
+#settings-container div:last-child{
+    border: none;
+}

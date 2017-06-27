@@ -1,3 +1,48 @@
 page-home {
+    
+}
 
+#home-container {
+    background-color: cornflowerblue;
+}
+
+#home-hero {
+    text-align: center;
+    
+    padding: 100px 20px;
+    color: #fff;
+    width: 100%;
+}
+
+#home-hero h1 {
+    font-size: 50px;
+}
+
+#home-setting-btn {
+    position: fixed;
+    top:5px;
+    right: 10px;
+    padding: 10px;
+}
+
+#home-setting-btn button {
+    background-color: cornflowerblue;
+    color: navy;
+    width: 50px;
+    height: 50px;
+}
+
+#home-button-nav {
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#home-button-nav button {
+    margin-bottom: 10px;
 }

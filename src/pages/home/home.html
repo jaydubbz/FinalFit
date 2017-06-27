@@ -1,14 +1,19 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding id="home-container">
+    <!-- SETTINGS BUTTON, ETC -->
+    <div id="home-setting-btn">
+      <button (click)="displaySettings()" icon-only><ion-icon name="settings"></ion-icon></button>
+    </div>
+
+
+    <!-- TOP OF THE PAGE HERO -->
+    <div id="home-hero">
+      <h1>Calorie Count</h1>
+      <p>On track to lose 2lbs this week</p>
+    </div>
+
+    <!-- BOTTOM BUTTON NAV -->
+    <div id="home-button-nav">
+      <button (click)="displayFoodList()" ion-button block large>I ate something..</button>
+    </div>
 </ion-content>
