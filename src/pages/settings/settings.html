@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title text-center>User Persona</ion-title>
+    <ion-title text-center>Settings</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -16,18 +16,22 @@
       <h3>Weight <span>{{ userData.weight }}</span></h3>
     </div>
     <div (click)="displayHeightModal()">
-      <h3>Height <span>69 in</span></h3>
+      <h3>Height <span>{{ userData.height }} in</span></h3>
     </div>
-     <div (click)="displayHeightModal()">
-      <h3>Gender <span>Male</span></h3>
+    <div (click)="displayGenderModal()">
+      <h3>Gender <span>{{ userData.gender }}</span></h3>
     </div>
-    <div>
-      <h4><em>daily calories</em> <span>1300</span></h4>
-      <h4><em>weekly calories</em> <span>13000</span></h4>
+    <div (click)="displayGoalModal()">
+      <h3>Goal <span text-uppercase>{{ userData.goal }}</span></h3>
+    </div>
+    <div (click)="displayCalorieLimitModal()">
+      <p color="danger" *ngIf="cLimitLow">Calorie Limit Too Low!</p>
+      <h4><em>daily calories</em> <span>{{ userData.dailyLimit }}</span></h4>
+      <h4><em>weekly calories</em> <span>{{ userData.weeklyLimit }}</span></h4>
     </div>
 
     <div style="padding-top: 30px">
-      <button block color="primary" ion-button large>SAVE</button>
+      <button block color="primary" ion-button large (click)="save()">SAVE</button>
     </div>
   </div>
 </ion-content>

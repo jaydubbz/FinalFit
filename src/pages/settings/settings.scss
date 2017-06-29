@@ -4,19 +4,19 @@ page-settings {
 
 #settings-container {
     width: 98%;
-    padding: 25px 10px;
+    padding: 5px 10px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 #settings-container div {
-    padding: 25px 0 10px 0;
+    padding: 20px 0 10px 0;
     border-bottom: 1px solid #ccc;
     width: 100%;
 }
 
 #settings-container h3 {
-    font-size:30px;
+    font-size: 20px;
     font-weight: light;
 }
 
@@ -28,14 +28,14 @@ page-settings {
 }
 
 #settings-container h4 span {
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 15px;
 }
 
 #settings-container h3 span {
     font-style: italic;
     color:#888;
-    font-size: 28px;
+    font-size: 20px;
     margin-right: 6px;
     float: right;
 }
